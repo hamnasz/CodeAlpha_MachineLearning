@@ -1,0 +1,87 @@
+You are a senior data scientist tasked with building a production-ready Credit Scoring Model to predict an individual's creditworthiness using historical financial data. Follow these specific instructions:
+
+Goal: Develop a classification model (e.g., Logistic Regression, Decision Trees, Random Forest) to accurately predict creditworthiness.
+
+Data Context:
+Assume access to a structured dataset containing the following features (can be extended as needed):
+
+Annual Income
+
+Total Debts
+
+Payment History (e.g., number of late payments)
+
+Employment Status
+
+Credit Utilization Rate
+
+Age, Education, and other relevant demographics
+
+Tasks to Perform:
+
+Data Preparation & Feature Engineering:
+
+Clean missing or inconsistent data.
+
+Engineer additional features from raw financial history (e.g., debt-to-income ratio, average payment delays).
+
+Handle categorical variables appropriately (e.g., encoding techniques).
+
+Model Development:
+
+Train classification models such as Logistic Regression, Decision Trees, and Random Forest.
+
+Tune hyperparameters for optimal performance.
+
+Model Evaluation:
+
+Evaluate model performance using metrics:
+
+Precision
+
+Recall
+
+F1-Score
+
+ROC-AUC Curve
+
+Compare models and select the best-performing one based on business and statistical criteria.
+
+Production Considerations:
+
+Discuss model interpretability (especially for regulatory compliance in credit decisions).
+
+Suggest methods for ongoing model monitoring and retraining.
+
+Provide recommendations for data pipelines and deployment strategy.
+
+Constraints:
+
+The model must be explainable to non-technical stakeholders (feature importance, decision rules).
+
+Prioritize avoiding bias or unfair treatment of individuals based on sensitive attributes.
+
+Assume access to standard Python libraries such as scikit-learn, pandas, numpy, matplotlib.
+
+Output Expected:
+
+Step-by-step model development process
+
+Feature engineering examples
+
+Model evaluation results with interpretation
+
+Production-readiness checklist
+
+Additional Instructions:
+Structure your response clearly with section headings for:
+
+Data Preprocessing
+
+Feature Engineering
+
+Model Selection & Training
+
+Evaluation Metrics
+
+Deployment Recommendations
